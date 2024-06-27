@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h2>Convert amount from Shekels to Dollars or Dinars</h2>
+    <p>Consider the following:</p>
+    <p>3.5 NIS = $1</p>
+    <p>1 JOD = 5 NIS</p>
+
+    <label for="amount">Enter amount in Shekels:</label>
+    <input type="number" id="amount" name="amount" required>
+    
+    <br><br>
+    <button onclick="convertToUSD()">Convert to Dollar</button>
+    <button onclick="convertToJOD()">Convert to Dinar</button>
+    
+    <h3>Result:</h3>
+    <p id="result"></p>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
